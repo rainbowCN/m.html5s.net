@@ -84,7 +84,7 @@
     </style>
 
   </head>
-  <body>
+  <body onload="loaded()">
     <div id="container">
       <div id="header">
       </div>
@@ -150,13 +150,13 @@
       //document.getElementById("info").innerHTML="<span>height: "+window.screen.width+" width: "+window.screen.height+"</span>";
     </script>    
     <script type="application/javascript" src="./bower_components/iscroll/build/iscroll.js"></script>
-    <script type="text/javascript">
-      var myScroll;
-      function loaded() {
-        myScroll = new iScroll('body');
-      }
-      document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
-      document.addEventListener('DOMContentLoaded', function () { setTimeout(loaded, 200); }, false);
-    </script>   
+	<script type="text/javascript">
+		var myScroll;
+		function loaded () {
+			myScroll = new IScroll('#body', { mouseWheel: true });
+		}
+		document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
+	</script>
+
   </body>
 </html>
