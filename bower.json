@@ -1,0 +1,26 @@
+{
+  "name": "m.html5s.net",
+  "version": "0.1.0",
+  "homepage": "https://github.com/rainbowCN/m.html5s.net",
+  "description": "The research of mobile app based on HTML5 & Javascript.",
+  "keywords": [
+    "mobile",
+    "html5",
+    "css3",
+    "javascript"
+  ],
+  "authors": [
+    "James.Yu"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "iscroll": "https://github.com/cubiq/iscroll.git#~5.1.3"
+  }
+}
