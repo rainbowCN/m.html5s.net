@@ -1,0 +1,25 @@
+{
+  "name": "m.html5s.net",
+  "version": "0.1.0",
+  "description": "The auto build workflow with grunt.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rainbowCN/m.html5s.net.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rainbowCN/m.html5s.net/issues"
+  },
+  "homepage": "https://github.com/rainbowCN/m.html5s.net",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-bower-concat": "~0.3.0",
+    "grunt-contrib-concat": "^0.5.0",
+    "grunt-contrib-uglify": "~0.2.2"
+  }
+}
